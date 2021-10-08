@@ -1,0 +1,49 @@
+.img {
+  height: 240px;
+  object-fit: cover;
+  margin: auto;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tap {
+  position: absolute;
+  width: 5px;
+  height: 30%;
+  left: 0px;
+  top: 10%;
+  background: #52be80;
+}
+
+.card {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #fffdff;
+  margin-top: 20px;
+  margin-left: 13px;
+}
+
+.button {
+  width: 120px;
+  border-color: transparent;
+}
+
+.buttonAbsolute {
+  display: flex;
+  align-items: center;
+  bottom: 10%;
+  position: absolute;
+  align-items: center;
+}
+
+@media only screen and (max-width: 530px) {
+  .img {
+    height: 150px;
+    object-fit: cover;
+    margin: auto;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+  }
+  .button {
+    width: auto;
+    border-color: transparent;
+  }
+}

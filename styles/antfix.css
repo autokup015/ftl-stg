@@ -1,0 +1,22 @@
+/* Css ant  */
+
+.ant-select-selector {
+  background-color: transparent !important;
+  color: white;
+}
+.ant-select-arrow {
+  color: white;
+}
+
+.ant-card-bordered {
+  border: 1px;
+}
+.ant-input-affix-wrapper,
+.ant-input-affix-wrapper > input.ant-input {
+  border-radius: 10px !important;
+  color: black;
+}
+.ant-select-selector {
+  border-color: transparent !important;
+  text-align: end;
+}
